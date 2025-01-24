@@ -1,0 +1,81 @@
+/* chat/static/chat/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for the whole page */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.chat-log {
+    background-color: #ffffff; /* White background for chat log */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the chat log */
+    height: 400px; /* Fixed height for chat log */
+    overflow-y: scroll; /* Scrollable if content overflows */
+}
+
+.input-group {
+    margin-top: 10px; /* Space above the input group */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Light gray background for footer */
+    padding: 10px 0; /* Padding for footer */
+    text-align: center; /* Centered text in footer */
+}
+
+h2 {
+    color: #343a40; /* Dark gray color for headings */
+}
+
+.list-group-item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #ced4da; /* Light gray border */
+}
+
+.list-group-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.list-group-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.btn {
+    margin-left: 5px; /* Space between buttons */
+}
+
+.btn-outline-danger {
+    color: #dc3545; /* Red color for logout button */
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545; /* Red background on hover */
+    color: white; /* White text on hover */
+}
+
+.btn-outline-primary {
+    color: #007bff; /* Blue color for login button */
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+}
+
+.btn-outline-success {
+    color: #28a745; /* Green color for signup button */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: white; /* White text on hover */
+}
